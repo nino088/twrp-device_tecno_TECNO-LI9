@@ -39,7 +39,7 @@ $(call inherit-product, device/tecno/TECNO-LI9/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Device identifier
-PRODUCT_DEVICE := TECNO-LI9
+PRODUCT_DEVICE := LI9
 PRODUCT_NAME := twrp_LI9
 PRODUCT_BRAND := Tecno
 PRODUCT_MODEL := TECNO LI9

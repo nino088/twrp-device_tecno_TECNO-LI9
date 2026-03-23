@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/tecno/TECNO-LI9
+DEVICE_PATH := device/tecno/LI9
 
 # Architecture
 TARGET_ARCH := arm64
@@ -199,4 +199,4 @@ TW_HAS_MTP := true
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone8/temp"
 
 # Maintainer
-TW_DEVICE_VERSION := LI9_HAPPYGAMES222
+TW_DEVICE_VERSION := LI9_Kelvin

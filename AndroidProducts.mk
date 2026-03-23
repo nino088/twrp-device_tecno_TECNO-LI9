@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_LI9.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/pb_LI9.mk
 
 COMMON_LUNCH_CHOICES := pb_LI9-eng

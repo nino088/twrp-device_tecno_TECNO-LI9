@@ -46,7 +46,14 @@ PRODUCT_MODEL := TECNO LI9
 PRODUCT_MANUFACTURER := Tecno
 PRODUCT_RELEASE_NAME := Tecno Pova 6 Pro
 
+PRODUCT_GMS_CLIENTID_BASE := android-transsion
+
 # Hide Reflash TWRP & FUSE passthrough
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.twrp.vendor_boot=true \
     persist.sys.fuse.passthrough.enable=true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="vnd_li9_h335-user 12 SP1A.210812.016 533977 release-keys"
+
+BUILD_FINGERPRINT := TECNO/LI9-OP/TECNO-LI9:15/AP3A.240905.015.A2/251110V1223:user/release-keys
